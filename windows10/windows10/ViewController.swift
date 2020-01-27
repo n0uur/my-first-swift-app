@@ -41,7 +41,7 @@ class ViewController: UIViewController {
             
             if(hp <= 0) {
                 answerLable.text = "จบเกม"
-                let alert = UIAlertController(title: "จบเกม", message: "กระจอกสัตว์!", preferredStyle: .alert)
+                let alert = UIAlertController(title: "จบเกม", message: "กระจอกปลาหางนกยูง!", preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title: "ตกลง", style: UIAlertAction.Style.default, handler: nil))
                 self.present(alert, animated: true, completion: nil)
                 
